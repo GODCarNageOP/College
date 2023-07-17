@@ -1,4 +1,4 @@
-
+import {Link} from "react-router-dom"
 
 const Hero = () => {
   return (
@@ -12,7 +12,9 @@ const Hero = () => {
       </div>
       <div className="bottom mt-12 flex items-center gap-10">
         <button className="w-32 h-10 border rounded-lg">Get Started</button>
+        <Link to ="/about">
         <button className="w-32 h-10 border rounded-lg">Learn More</button>
+        </Link>
       </div>
       </div>
     </div>

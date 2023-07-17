@@ -2,6 +2,11 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
+import Colleges from "./pages/Colleges";
+import Universities from "./pages/Universities";
+import Admission from "./pages/Admission";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function App() {
   const Layout = () => {
@@ -23,6 +28,26 @@ function App() {
         {
           path: "/",
           element: <Home/>,
+        },
+        {
+          path: "/colleges",
+          element: <Colleges/>,
+        },
+        {
+          path: "/universities",
+          element: <Universities/>,
+        },
+        {
+          path: "/admission",
+          element: <Admission/>,
+        },
+        {
+          path: "/about",
+          element: <About/>,
+        },
+        {
+          path: "/contact",
+          element: <Contact/>,
         }]
     },
   ]);

@@ -25,19 +25,19 @@ const Navbar = () => {
             <Link to="/">
               <span className="cursor-pointer">Home</span>
             </Link>
-            <Link to="/">
+            <Link to="/colleges">
               <span className="cursor-pointer">Top Colleges</span>
             </Link>
-            <Link to="/">
+            <Link to="/universities">
               <span className="cursor-pointer">Top Universities</span>
             </Link>
-            <Link to="/">
+            <Link to="/admission">
               <span className="cursor-pointer">Admission</span>
             </Link>
-            <Link to="/">
+            <Link to="/about">
               <span className="cursor-pointer">About</span>
             </Link>
-            <Link to="/">
+            <Link to="/contact">
               <span className="cursor-pointer">Contact</span>
             </Link>
           </div>
