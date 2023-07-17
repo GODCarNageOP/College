@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar h-24 w-full bg-[#0c0c0c] text-white flex">
+    <div className="navbar absolute h-24 w-full bg-[#0c0c0c] text-white flex">
       <div className="navbarContainer mx-10 flex justify-between items-center w-full mt-8 mb-2">
         <div className="left">
           <Link to="/">
@@ -63,10 +63,10 @@ const Navbar = () => {
                     </>
                   )}
                   <Link to="/">
-                    <span className="cursor-pointer">Orders</span>
+                    <span className="cursor-pointer">Connect</span>
                   </Link>
                   <Link to="/">
-                    <span className="cursor-pointer">Messages</span>
+                    <span className="cursor-pointer">Settings</span>
                   </Link>
                   <Link to="/">
                     <span className="cursor-pointer">Logout</span>
