@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="heroContainer flex items-center flex-col">
       <div className="top h-80"></div>
       <div className="center text-center flex items-center justify-center flex-col">
-      <div className="bg-gradient-to-r from-cyan-300 to-blue-600 inline-block text-transparent bg-clip-text text-6xl mx-60 font-semibold">
+      <div className="bg-gradient-to-r from-cyan-400 to-purple-700 inline-block text-transparent bg-clip-text text-6xl mx-60 font-semibold">
         <h1>"Unlock Your Potential, Embrace Your Future: Your Journey Starts Here!"</h1>
       </div>
       </div>
