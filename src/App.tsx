@@ -7,9 +7,10 @@ import Universities from "./pages/Universities";
 import Admission from "./pages/Admission";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import React from "react"
 
 function App() {
-  const Layout = () => {
+  const Layout: React.FC = () => {
     return (
       <div className=" app">
         <Navbar />

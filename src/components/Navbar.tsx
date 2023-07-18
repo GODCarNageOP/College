@@ -2,8 +2,9 @@ import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import profile from "../assets/yashXD.jpg";
 import {useState} from "react"
+import React from "react"
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
 
   const currentUser = {

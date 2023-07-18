@@ -1,6 +1,6 @@
+import React from "react"
 
-
-const Universities = () => {
+const Universities: React.FC = () => {
   return (
     <div className="universities bg-[#0c0c0c] w-full h-[100vh]"></div>
   )
